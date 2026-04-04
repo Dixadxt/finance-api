@@ -1,6 +1,6 @@
 # Finance Data Processing and Access Control Backend
 
-A production-ready REST API for a finance dashboard system, built with **Spring Boot 3**, **Spring Security (JWT)**, **JPA**, and **MySQL**.
+A production-ready REST API for a finance dashboard system, built with **Spring Boot**, **Spring Security (JWT)**, **JPA**, and **MySQL**.
 
 ---
 
@@ -8,12 +8,12 @@ A production-ready REST API for a finance dashboard system, built with **Spring 
 
 | Layer        | Technology                  |
 |--------------|-----------------------------|
-| Framework    | Spring Boot 3.2             |
-| Language     | Java 17                     |
+| Framework    | Spring Boot                 |
+| Language     | Java                        |
 | Security     | Spring Security + JWT (JJWT)|
 | Persistence  | Spring Data JPA + Hibernate |
-| Database     | MySQL 8                     |
-| Build Tool   | Maven                       |
+| Database     | MySQL                       |
+| Build Tool   | Maven                      |
 
 ---
 
@@ -32,9 +32,9 @@ A production-ready REST API for a finance dashboard system, built with **Spring 
 ## Setup
 
 ### 1. Prerequisites
-- Java 17+
-- Maven 3.8+
-- MySQL 8+
+- Java 
+- Maven 
+- MySQL 
 
 ### 2. Database
 ```sql
@@ -51,7 +51,7 @@ spring.datasource.password=your_password
 
 ### 4. Run
 ```bash
-mvn spring-boot:run
+mvn spring-boot: run
 ```
 
 Server starts at **http://localhost:8080**
